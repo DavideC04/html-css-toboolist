@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 
@@ -12,6 +11,7 @@ header {
 
 body {
     background-color: rgb(246, 248, 249);
+
 }
 
 #logo {
@@ -20,7 +20,7 @@ body {
 
 .container {
     width: 70%;
-    height: 500px;
+    height: 560px;
     margin: 40px auto;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -32,6 +32,7 @@ body {
 
 #border_bottom {
     border-bottom: 2px solid rgb(246, 248, 249);
+    margin-left: 0%;
 }
 
 .border_text {
@@ -45,7 +46,7 @@ body {
 }
 
 .green_mark {
-    display: inline;
+    display: inline-block;
     border-radius: 50%;
     border: 1px solid green;
     color: green;
@@ -55,6 +56,57 @@ body {
     margin-left: 3px;
 }
 
+.red_cross {
+    border-radius: 50%;
+    border: 1px solid red;
+    color: red;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin-left: 3px;
+    display: inline-block;
+    vertical-align: auto;
+}
+
+
+.border_editorial {
+    border-radius: 10px;
+    color: white;
+    padding: 6px;
+    font-size: 10px;
+    vertical-align: middle;
+    background-color: rgb(9, 169, 237);
+}
+
+.border_q1goals {
+    border-radius: 10px;
+    color: white;
+    padding: 6px;
+    font-size: 10px;
+    vertical-align: middle;
+    background-color: rgb(171, 93, 230);
+
+}
+
+.border_recruiting {
+    border-radius: 10px;
+    color: white;
+    padding: 6px;
+    font-size: 10px;
+    vertical-align: middle;
+    background-color: rgb(44, 198, 171);
+
+}
+
+.border_mobile {
+    border-radius: 10px;
+    color: white;
+    padding: 6px;
+    font-size: 10px;
+    vertical-align: middle;
+    background-color: rgb(255, 155, 0);
+}
+
 .task_position {
     padding-top: 20px;
 }
@@ -62,6 +114,15 @@ body {
 .buttons {
     padding-bottom: 0.2%;
     margin-bottom: 1%;
+}
+
+.Today_position {
+    padding-top: 40px;
+    line-height: 2;
+}
+
+.Upcoming_position {
+    padding-top: 40px;
 }
 
 .bg_colored {
