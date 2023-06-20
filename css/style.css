@@ -11,7 +11,7 @@ header {
 
 body {
     background-color: rgb(246, 248, 249);
-
+    font-family: 'Roboto', sans-serif;
 }
 
 #logo {
@@ -31,14 +31,15 @@ body {
 }
 
 #border_bottom {
-    border-bottom: 2px solid rgb(246, 248, 249);
-    margin-left: 0%;
+    border-bottom: 3px solid rgb(246, 248, 249);
+
+
 }
 
 .border_text {
     display: inline;
     margin: 0 5px;
-    border: 1px solid black;
+    border: 1px solid rgb(196, 203, 208);
     padding: 3px;
     width: 100px;
     height: 80px;
@@ -54,6 +55,7 @@ body {
     height: 25px;
     text-align: center;
     margin-left: 3px;
+    line-height: 2;
 }
 
 .red_cross {
@@ -66,6 +68,7 @@ body {
     margin-left: 3px;
     display: inline-block;
     vertical-align: auto;
+    line-height: 2;
 }
 
 
@@ -107,6 +110,25 @@ body {
     background-color: rgb(255, 155, 0);
 }
 
+.border_website {
+    border-radius: 10px;
+    color: white;
+    padding: 6px;
+    font-size: 10px;
+    vertical-align: middle;
+    background-color: rgb(236, 74, 157);
+}
+
+.border_sales {
+    border-radius: 10px;
+    color: white;
+    padding: 6px;
+    font-size: 10px;
+    vertical-align: middle;
+    background-color: rgb(163, 209, 22);
+}
+
+
 .task_position {
     padding-top: 20px;
 }
@@ -117,14 +139,15 @@ body {
 }
 
 .Today_position {
-    padding-top: 40px;
+    padding-top: 20px;
     line-height: 2;
 }
 
 .Upcoming_position {
-    padding-top: 40px;
+    padding-top: 20px;
+    line-height: 2;
 }
 
 .bg_colored {
-    background-color: lightblue;
+    background-color: rgb(20, 170, 245);
 }
