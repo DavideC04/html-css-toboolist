@@ -2,30 +2,66 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+
 
 header {
     background-color: white;
 }
 
 body {
-    background-color: lightgray;
+    background-color: rgb(246, 248, 249);
 }
 
 #logo {
     padding: 20px;
 }
 
+.container {
+    width: 70%;
+    height: 500px;
+    margin: 40px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: auto;
+}
 
+#border_bottom {
+    border-bottom: 2px solid rgb(246, 248, 249);
+}
 
 .border_text {
     display: inline;
     margin: 0 5px;
     border: 1px solid black;
-    padding: 5px;
+    padding: 3px;
     width: 100px;
     height: 80px;
     border-radius: 5px;
+}
+
+.green_mark {
+    display: inline;
+    border-radius: 50%;
+    border: 1px solid green;
+    color: green;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin-left: 3px;
+}
+
+.task_position {
+    padding-top: 20px;
+}
+
+.buttons {
+    padding-bottom: 0.2%;
+    margin-bottom: 1%;
 }
 
 .bg_colored {
