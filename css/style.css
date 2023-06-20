@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: white;
+}
+
+body {
+    background-color: lightgray;
+}
+
+#logo {
+    padding: 20px;
+}
+
+
+
+.border_text {
+    display: inline;
+    margin: 0 5px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.bg_colored {
+    background-color: lightblue;
+}
